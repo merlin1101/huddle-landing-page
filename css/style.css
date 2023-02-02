@@ -1,0 +1,126 @@
+body {
+  background: hsl(257deg, 40%, 49%);
+  padding: 25px 45px;
+  color: #fff;
+  background-size: contain;
+}
+
+header img {
+  max-width: 150px;
+  width: 45%;
+}
+
+.intro-img img {
+  width: 100%;
+}
+
+button.register-btn {
+  width: 74%;
+  padding: 12px 15px;
+  border-radius: 35px;
+  border: none;
+  color: hsl(257deg, 40%, 49%);
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button.register-btn:hover, button.register-btn:active {
+  background: hsl(300deg, 69%, 71%);
+  color: #fff;
+}
+
+.head {
+  font-family: "Poppins", sans-serif;
+}
+
+.para {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.footer-links {
+  margin: 20px 0 0;
+}
+
+.footer-links a {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 26px;
+  margin: 3px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover, .footer-links a:active {
+  color: hsl(300deg, 69%, 71%);
+  border-color: hsl(300deg, 69%, 71%);
+}
+
+.attribution {
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(300deg, 69%, 71%);
+}
+
+.author-para {
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../images/bg-mobile.svg");
+  }
+  div#page-wrap {
+    text-align: center;
+    margin: 60px 0;
+  }
+  button.register-btn {
+    max-width: 210px;
+    font-size: 0.9rem;
+  }
+  footer {
+    text-align: center;
+  }
+  .head {
+    font-size: 1.5rem;
+  }
+  section.intro-para {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 769px) {
+  body {
+    background-image: url("../images/bg-desktop.svg");
+  }
+  div#page-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0 0;
+  }
+  section.intro-img {
+    width: 50%;
+  }
+  section.intro-para {
+    width: 45%;
+  }
+  .head {
+    font-size: 2rem;
+  }
+  button.register-btn {
+    max-width: 140px;
+    font-size: 1rem;
+  }
+  footer {
+    text-align: right;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
